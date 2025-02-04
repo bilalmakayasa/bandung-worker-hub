@@ -75,7 +75,7 @@ export default function HeaderComponent() {
             Blog
           </Link>
           <Link
-            href="/contact"
+            href="/about-us"
             className="text-main font-title px-2 py-2 text-sm font-normal hover:font-bold hover:underline"
           >
             Tentang Kami
