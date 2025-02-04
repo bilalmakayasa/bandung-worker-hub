@@ -2,9 +2,8 @@ import fs from "fs";
 import path from "path";
 import blogPosts from "@assets/data/articles";
 import { serialize } from "next-mdx-remote/serialize";
-
+import NavigationComponent from "@/components/ui/navigation";
 import MDXRenderer from "@/utils/MDXRenderer"; // Import the Client Component
-import Link from "next/link";
 import Image from "next/image";
 
 type BlogPostProps = Promise<{
@@ -25,35 +24,7 @@ export default async function BlogPost(props: {params: BlogPostProps}) {
 
   return (
     <div className="bg-white">
-      <div className="w-full h-full flex items-start justify-between p-2 bg-main">
-        <Link
-          href="/"
-          className="text-white font-title px-4 py-5 text-3xl font-bold hover:underline"
-        >
-          amokerja
-        </Link>
-        <div className="flex items-center justify-center px-4 py-5">
-          {/* TODO: instead of apply this one by one, use map */}
-          <Link
-            href="/contact"
-            className="text-white px-2 py-2 font-title text-sm font-normal hover:font-bold hover:underline"
-          >
-            Pusat Bantuan
-          </Link>
-          <Link
-            href="/contact"
-            className="text-white px-2 py-2  font-title text-sm font-normal hover:font-bold hover:underline"
-          >
-            Blog
-          </Link>
-          <Link
-            href="/contact"
-            className="text-white font-title px-2 py-2 text-sm font-normal hover:font-bold hover:underline"
-          >
-            Tentang Kami
-          </Link>
-        </div>
-      </div>
+      <NavigationComponent />
       <div className="px-5 my-10 flex flex-col items-center">
         <h1 className="text-3xl font-bold text-black">{post.title}</h1>
         <p className="text-sm text-gray-500">

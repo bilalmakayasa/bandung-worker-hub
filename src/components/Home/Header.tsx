@@ -63,7 +63,7 @@ export default function HeaderComponent() {
         <div className="flex items-center justify-center px-4 py-5">
           {/* TODO: instead of apply this one by one, use map */}
           <Link
-            href="/contact"
+            href="/help-center"
             className="text-main px-2 py-2 font-title text-sm font-normal hover:font-bold hover:underline"
           >
             Pusat Bantuan
