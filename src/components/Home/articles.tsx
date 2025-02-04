@@ -1,5 +1,5 @@
 import RoundedImageSlider from "@/components/ui/rounded-image-slider";
-import articles from "@/data/articles";
+import articles from "@assets/data/articles";
 
 export default function ArticlesComponent() {
   return (

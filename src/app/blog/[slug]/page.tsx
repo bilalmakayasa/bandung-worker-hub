@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import blogPosts from "@/data/articles";
+import blogPosts from "@assets/data/articles";
 import { serialize } from "next-mdx-remote/serialize";
 
 import MDXRenderer from "@/utils/MDXRenderer"; // Import the Client Component
