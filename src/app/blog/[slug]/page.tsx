@@ -7,14 +7,12 @@ import MDXRenderer from "@/utils/MDXRenderer"; // Import the Client Component
 import Link from "next/link";
 import Image from "next/image";
 
-interface BlogPostProps {
-  params: {
+type BlogPostProps = Promise<{
     slug: string;
-  };
-}
+}>
 
-export default async function BlogPost({ params }: BlogPostProps) {
-  const { slug } = await params;
+export default async function BlogPost(props: {params: BlogPostProps}) {
+  const { slug } = await props.params;
   const post = blogPosts.find((post) => post.slug === slug);
   if (!post) {
     return <p>Post not found</p>;
