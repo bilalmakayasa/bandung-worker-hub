@@ -69,10 +69,10 @@ export default function HeaderComponent() {
             Pusat Bantuan
           </Link>
           <Link
-            href="/contact"
+            href="/informations"
             className="text-main px-2 py-2  font-title text-sm font-normal hover:font-bold hover:underline"
           >
-            Blog
+            Informasi
           </Link>
           <Link
             href="/about-us"
