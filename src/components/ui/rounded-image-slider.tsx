@@ -32,7 +32,7 @@ export default function RoundedImageSlider({
             imageUrl={item.imageUrl}
             title={item.title}
             excerpt={item.exceprt}
-            slug={item.slug}
+            slug={`/informations/articles/${item.slug}`}
           />
         </div>
       ))}
@@ -42,13 +42,39 @@ export default function RoundedImageSlider({
         onClick={handlePrev}
         className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-main px-4 py-2 rounded-lg shadow-md"
       >
-        {"\u003C"}
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth={1.5}
+          stroke="currentColor"
+          className="size-6"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M15.75 19.5 8.25 12l7.5-7.5"
+          />
+        </svg>
       </button>
       <button
         onClick={handleNext}
         className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-main px-4 py-2 rounded-lg shadow-md"
       >
-        Next
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth={1.5}
+          stroke="currentColor"
+          className="size-6"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="m8.25 4.5 7.5 7.5-7.5 7.5"
+          />
+        </svg>
       </button>
     </div>
   );

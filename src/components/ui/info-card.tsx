@@ -6,6 +6,7 @@ type InfoCardProps = {
   tag?: string;
   yearApplied?: string;
   link: string;
+  infoCardType: 'policy' | 'article';
 };
 
 const InfoCard: React.FC<InfoCardProps> = ({
@@ -14,6 +15,7 @@ const InfoCard: React.FC<InfoCardProps> = ({
   // tag,
   link,
   yearApplied,
+  infoCardType
 }) => {
   return (
     <div className="p-4 border border-gray-300 rounded-lg shadow-md">
@@ -25,7 +27,7 @@ const InfoCard: React.FC<InfoCardProps> = ({
       <p className="text-gray-900 mt-2">{description}</p>
       {yearApplied && (
         <div>
-          <span className="text-gray-600 mt-2">Berlaku sejak: </span>
+          <span className="text-gray-600 mt-2"> {infoCardType === 'policy' ? 'Berlaku Sejak' :'Ditulis pada'}: </span>
           <span className="text-black">{ yearApplied }</span>
         </div>
       )}

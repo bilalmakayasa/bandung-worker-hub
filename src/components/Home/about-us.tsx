@@ -28,7 +28,7 @@ export default function AboutUsComponent() {
     };
   }, []);
   return (
-    <div className="font-white px-20 mt-10 flex flex-row items-center justify-center gap-x-12">
+    <div className="font-white px-48 mt-10 flex flex-row items-center justify-center gap-x-12 text-center">
       <div>
         <p className="text-3xl text-white font-title font-bold text-main">
           Apa itu amokerja.id
@@ -41,21 +41,6 @@ export default function AboutUsComponent() {
           ketegangan mental dan dapat meledak kapan saja ketika terpantik suatu
           konflik.
         </p>
-      </div>
-
-      <div className="w-full">
-        <video
-          ref={videoRef}
-          className="w-full rounded-lg shadow-md"
-          muted
-          loop
-        >
-          <source
-            src="https://www.w3schools.com/html/mov_bbb.mp4"
-            type="video/mp4"
-          />
-          Your browser does not support the video tag.
-        </video>
       </div>
     </div>
   );

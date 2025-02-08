@@ -16,7 +16,7 @@ export default function HelpCenter() {
         </p>
         <div className="mt-10 w-full h-[500px]">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7740494729783!2d107.62891157511275!3d-6.917594793082005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7f220c2dcd7%3A0x463f7ea646c472a1!2sKedai%20Jante!5e0!3m2!1sen!2sid!4v1738668175380!5m2!1sen!2sid"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.0193603745597!2d107.64776189999999!3d-6.8882841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e639be604a47%3A0x84c1dbdc78d92cb0!2sAJI%20Bandung!5e0!3m2!1sen!2sid!4v1739025719914!5m2!1sen!2sid"
             style={{
               border: 0,
               width: "100%",
