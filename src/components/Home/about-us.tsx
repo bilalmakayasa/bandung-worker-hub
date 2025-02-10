@@ -34,12 +34,7 @@ export default function AboutUsComponent() {
           Apa itu amokerja.id
         </p>
         <p className="text-md font-helvetica mt-5 leading-7">
-          Deskrimpiskan soal amuk yang ini hanya contoh: Menurut Van Wulfften,
-          Amok merupakan gangguan mental yang erat hubungannya dengan khususnya
-          Kebudayaan Jawa, karena orang Jawa pada saat itu dianggap kurang dapat
-          mengekspresikan emosi yang kemudian menyebabkan kekhawatiran
-          ketegangan mental dan dapat meledak kapan saja ketika terpantik suatu
-          konflik.
+        Amokerja merupakan inisiatif kolektif anak muda di Bandung untuk membantu penyadaran hak-hak perburuhan untuk menunjang kesehatan mental pekerja muda. Amokerja berusaha menyediakan informasi tentang hak-hak buruh dan layanan pengaduan pelanggaran atas hak-hak perburuhan anda. Amokerja dikelola secara kolektif oleh Aliansi Jurnalis Independen Bandung, Yayasan Widya Palasara, Konfederasi Serikat Nasional Jawa Barat dan Lembaga Bantuan Hukum Bandung yang tergabung dalam konsorsium bernama Posko Curhat Buruh.
         </p>
       </div>
     </div>

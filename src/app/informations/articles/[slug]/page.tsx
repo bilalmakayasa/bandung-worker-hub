@@ -5,7 +5,7 @@ import { serialize } from "next-mdx-remote/serialize";
 import NavigationComponent from "@/components/ui/navigation";
 import MDXRenderer from "@/utils/MDXRenderer"; // Import the Client Component
 import Image from "next/image";
-
+import { formatDateToMonthYear  } from "@/utils";
 type ArticleDetailsParams = Promise<{
     slug: string;
 }>
@@ -28,7 +28,7 @@ export default async function ArticlePosts(props: {params: ArticleDetailsParams}
       <div className="px-5 my-10 flex flex-col items-center">
         <h1 className="text-3xl font-bold text-black">{post.title}</h1>
         <p className="text-sm text-gray-500">
-          By {post.author} on {post.date}
+          By {post.author} on {formatDateToMonthYear(post.date)}
         </p>
         <div className="relative w-1/2 flex justify-center items-center mx-auto mt-5">
           <Image

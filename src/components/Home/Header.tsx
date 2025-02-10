@@ -10,19 +10,19 @@ import { useRef } from "react";
 // TODO: move somewhere else
 const highlightData = [
   {
-    number: "329",
+    number: "1923",
     description: "Peraturan perundang-undangan kesehatan tenaga kerja",
   },
   {
-    number: "82",
+    number: "12747",
     description: "Putusan pengadilan ketenagakerjaan",
   },
   {
-    number: "1242",
+    number: "353",
     description: "Analisis ahli tentang hak atas kesehatan tenaga kerja",
   },
   {
-    number: "200",
+    number: "201",
     description: "Layanan kesehatan tenaga kerja",
   },
 ];

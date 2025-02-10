@@ -25,8 +25,7 @@ export default function IndonesianLabourInfo() {
           Tenaga Kerja Indonesia
         </p>
         <p className="text-md font-helvetica mt-5 leading-7 px-48">
-          Kesehatan mental pekerja di Indonesia menjadi perhatian penting
-          mengingat dampaknya terhadap produktivitas dan kesejahteraan individu.
+          Kesehatan mental pekerja di Indonesia menjadi perhatian penting mengingat dampaknya terhadap productivitas dan kesejahteraan individu. Survei INternational Labour Organization (ILO) pada 2020-2022 mengungkap bahwa 63% pekerja di Indonesia mengalami gangguan kesehatan mental, seperti perasaan sedih dan ketidaknyamanan di tempat kerja. 
         </p>
       </motion.div>
 
@@ -47,7 +46,7 @@ export default function IndonesianLabourInfo() {
         animate={isInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.8, delay: 1 }}
       >
-        <p className="text-9xl">{formatNumber(1836712)}</p>
+        <p className="text-9xl">17,18 Juta</p>
         <p className="text-3xl">Jumlah Tenaga Kerja</p>
       </motion.div>
     </div>
