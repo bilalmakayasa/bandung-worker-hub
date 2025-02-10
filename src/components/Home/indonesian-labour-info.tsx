@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import AssetPicture from "@assets/images/indonesia-map.png";
-import { formatNumber } from "@/utils";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
