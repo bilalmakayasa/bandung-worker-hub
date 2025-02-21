@@ -3,6 +3,6 @@ export type PolicyTypes = {
   title: string;
   description: string;
   tag?: string;
-  yearApplied: number;
+  yearApplied: string;
   link: string;
 };
