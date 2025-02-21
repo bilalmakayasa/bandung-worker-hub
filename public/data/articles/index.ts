@@ -73,16 +73,6 @@ const articles: ArticleType[] = [
         imageUrl: "images/discuss.jpg",
     },
     {
-        id: 17,
-        title: "Cari Kerja Setelah Lulus SMU/SMK, Apa Saja yang Harus Diperhatikan?",
-        slug: "cari-kerja-setelah-lulus-smu-smk-apa-saja-yang-harus-diperhatikan",
-        date: "2024-07-05",
-        exceprt: "Ujian Nasional SMU/SMK telah lewat. Selamat untuk kawan-kawan yang baru lulus. Untuk yang tidak lulus, jangan berkecil hati, jangan merasa bodoh. Pendidikan yang menjejalimu dengan hafalan  mungkin tidak sesuai dengan karakter kamu. Coba lagi tahun depan dan semoga kamu beruntung.",
-        contentPath: 'public/data/articles/contents/cari-kerja-setelah-lulus-smu-smk-apa-saja-yang-harus-diperhatikan.mdx',
-        author: "Trimurti",
-        imageUrl: "images/cashier.jpg"
-    },
-    {
         id: 18,
         title: "Cari Kerja Setelah Lulus SMU/SMK, Apa Saja yang Harus Diperhatikan?",
         slug: "cari-kerja-setelah-lulus-smu-smk-apa-saja-yang-harus-diperhatikan",
