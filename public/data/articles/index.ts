@@ -20,7 +20,7 @@ const articles: ArticleType[] = [
         exceprt: "Isu kesehatan mental pekerja patut mendapatkan perhatian khusus, dikarenakan dampak negatif yang dapat ditimbulkan tidak hanya bagi penurunan produktivitas pekerja itu sendiri, tetapi juga dapat memengaruhi perekonomian secara makro.",
         contentPath: 'public/data/articles/contents/menilik-isu-dan-urgensi-kesehatan-mental-pekerja-indonesia.mdx',
         author: "Naufal Mohamad Firdausyan, Ahmad Taqiyuddin, Akmal Shalahuddin, Qisha Quarin",
-        imageUrl: "images/depresi.png",
+        imageUrl: "images/discuss-office.jpg",
     },
     {
         id: 3,
@@ -30,7 +30,7 @@ const articles: ArticleType[] = [
         exceprt: "Sebagai calon pekerja muda yang baru saja memasuki dunia kerja, memahami dan memperhatikan kontrak kerja adalah langkah penting yang tidak boleh diabaikan. Kontrak kerja bukan sekadar formalitas; dokumen ini memiliki peran besar dalam melindungi hak Anda sebagai pekerja dan memberikan kejelasan mengenai kewajiban Anda kepada perusahaan. Berikut adalah beberapa alasan mengapa kontrak kerja sangat penting untuk Anda pelajari dengan baik.",
         contentPath: 'public/data/articles/contents/pentingnya-kontrak-kerja-bagi-calon-pekerja-muda.mdx',
         author: "Ahmad Budi Santoso",
-        imageUrl: "images/depresi.png",
+        imageUrl: "images/dictionary.jpg",
     },
     {
         id: 4,
@@ -40,7 +40,7 @@ const articles: ArticleType[] = [
         exceprt: "Sebagai seorang pekerja, memahami sistem penghitungan upah dan hak-hak terkait adalah langkah penting untuk memastikan Anda menerima hak Anda dengan adil. Artikel ini membahas cara penghitungan upah, upah layak di Kota Bandung, hak lembur, hak bekerja di hari libur, dan langkah yang bisa diambil jika terjadi pemotongan upah.",
         contentPath: 'public/data/articles/contents/panduan-upah-pekerja-di-kota-bandung.mdx',
         author: "Ahmad Budi Santoso",
-        imageUrl: "images/depresi.png",
+        imageUrl: "images/office-work.jpg",
     },
     {
         id: 5,
@@ -50,7 +50,67 @@ const articles: ArticleType[] = [
         exceprt: "Berserikat merupakan hak fundamental bagi setiap pekerja yang diakui baik secara nasional maupun internasional. Dalam konteks ketenagakerjaan, berserikat adalah bentuk kemewahan yang tidak selalu mudah diwujudkan. Serikat pekerja memberikan wadah bagi pekerja untuk menyuarakan aspirasi, memperjuangkan hak, dan melindungi kepentingan mereka secara kolektif.",
         contentPath: 'public/data/articles/contents/kebebasan-berserikat-dan-pentingnya-berserikat-bagi-pekerja.mdx',
         author: "Ahmad Budi Santoso",
-        imageUrl: "images/depresi.png",
+        imageUrl: "images/discuss-fun.jpg",
+    },
+    {
+        id: 6,
+        title: "5 Alasan Mengapa Harus Bergabung dengan Serikat Buruh",
+        slug: "5-alasan-mengapa-harus-bergabung-dengan-serikat-buruh",
+        date: "2023-07-05",
+        exceprt: "Berserikat merupakan hak fundamental bagi setiap pekerja yang diakui baik secara nasional maupun internasional. Dalam konteks ketenagakerjaan, berserikat adalah bentuk kemewahan yang tidak selalu mudah diwujudkan. Serikat pekerja memberikan wadah bagi pekerja untuk menyuarakan aspirasi, memperjuangkan hak, dan melindungi kepentingan mereka secara kolektif.",
+        contentPath: 'public/data/articles/contents/5-alasan-mengapa-harus-bergabung-dengan-serikat-buruh.mdx',
+        author: "Rinaldi Fitra",
+        imageUrl: "images/fight.jpg",
+    },
+    {
+        id: 7,
+        title: "Jika Buruh Mengalami Kecelakaan Kerja",
+        slug: "jika-buruh-mengalami-kecelakaan-kerja",
+        date: "2023-08-05",
+        exceprt: "Pekerja yang mengalami kecelakaan kerja berhak atas Jaminan Kecelakaan Kerja (JKK). JKK sendiri merupakan salah satu jenis program yang diselenggarakan oleh Badan Penyelenggara Jaminan Sosial Ketenagakerjaan (BPJS Ketenagakerjaan). Definisi kecelakaan kerja sendiri adalah kecelakaan yang terjadi dalam hubungan kerja, termasuk kecelakaan yang terjadi dalam perjalanan dari rumah menuju tempat kerja atau sebaliknya dan penyakit yang disebabkan oleh lingkungan kerja.",
+        contentPath: 'public/data/articles/contents/jika-buruh-mengalami-kecelakaan-kerja.mdx',
+        author: "Ahmad Budi Santoso",
+        imageUrl: "images/discuss.jpg",
+    },
+    {
+        id: 17,
+        title: "Cari Kerja Setelah Lulus SMU/SMK, Apa Saja yang Harus Diperhatikan?",
+        slug: "cari-kerja-setelah-lulus-smu-smk-apa-saja-yang-harus-diperhatikan",
+        date: "2024-07-05",
+        exceprt: "Ujian Nasional SMU/SMK telah lewat. Selamat untuk kawan-kawan yang baru lulus. Untuk yang tidak lulus, jangan berkecil hati, jangan merasa bodoh. Pendidikan yang menjejalimu dengan hafalan  mungkin tidak sesuai dengan karakter kamu. Coba lagi tahun depan dan semoga kamu beruntung.",
+        contentPath: 'public/data/articles/contents/cari-kerja-setelah-lulus-smu-smk-apa-saja-yang-harus-diperhatikan.mdx',
+        author: "Trimurti",
+        imageUrl: "images/cashier.jpg"
+    },
+    {
+        id: 18,
+        title: "Cari Kerja Setelah Lulus SMU/SMK, Apa Saja yang Harus Diperhatikan?",
+        slug: "cari-kerja-setelah-lulus-smu-smk-apa-saja-yang-harus-diperhatikan",
+        date: "2024-05-05",
+        exceprt: "Ujian Nasional SMU/SMK telah lewat. Selamat untuk kawan-kawan yang baru lulus. Untuk yang tidak lulus, jangan berkecil hati, jangan merasa bodoh. Pendidikan yang menjejalimu dengan hafalan  mungkin tidak sesuai dengan karakter kamu. Coba lagi tahun depan dan semoga kamu beruntung.",
+        contentPath: 'public/data/articles/contents/cari-kerja-setelah-lulus-smu-smk-apa-saja-yang-harus-diperhatikan.mdx',
+        author: "Trimurti",
+        imageUrl: "images/depresi.png"
+    },
+    {
+        id: 19,
+        title: "Pekerja Kurang Istirahat dan Tak Punya Kejelasan Karir di Masa Depan",
+        slug: "pekerja-kurang-istirahat-dan-tak-punya-kejelasan-karir-di-masa-depan",
+        date: "2024-08-05",
+        exceprt: "Pada akhir April tahun 2018, Kementerian Ketenagakerjaan menerbitkan Permenaker №5/2018 yang memuat Faktor Psikologi sebagai salah satu indikator Kesehatan dan Keselamatan Kerja. Dalam Permenaker tersebut, Faktor Psikologi adalah faktor yang mempengaruhi aktivitas tenaga kerja, disebabkan oleh hubungan antar personal di tempat kerja, peran dan tanggung jawab terhadap pekerjaan.",
+        contentPath: 'public/data/articles/contents/pekerja-kurang-istirahat-dan-tak-punya-kejelasan-karir-di-masa-depan.mdx',
+        author: "Serikat Sindikasi",
+        imageUrl: "images/discuss-smart.jpg"
+    },
+    {
+        id: 20,
+        title: "TB pada pekerja",
+        slug: "tb-pada-pekerja",
+        date: "2024-04-05",
+        exceprt: "TB atau tuberkulosis adalah penyakit yang disebabkan oleh adanya infeksi bakteri Mycobacterium Tuberculosis. Penyakit ini dapat mengenai organ paru-paru maupun organ lain di luar paru seperti tulang, kelenjar getah bening bahkan otak.",
+        contentPath: 'public/data/articles/contents/tb-pada-pekerja.mdx',
+        author: "dr. Dilla Anindita",
+        imageUrl: "images/pdkt.jpg",
     }
 ] 
 
